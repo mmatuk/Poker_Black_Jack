@@ -1,0 +1,53 @@
+
+    //check flush
+        //check straight
+            //check royal
+            // R S F ******************** R S F
+            //else
+            //  straight flush ********************** S F
+        //else
+        // flush ************************ F
+    //else 
+    // check straight
+        // Straight ************************ S
+    //else
+    // if 1 and 4 same  || 2 and 5 same
+        // have four of kind *************************** 4
+    //else
+    // check 1 and 3 
+        // check 4 and 5
+        // if true full house ********************* FULL
+        //else
+        // three kind ********************** 3
+    // else
+
+
+    ////////////////Need check for two pair and single pair
+    // check 1 2
+        // check 3 5
+        // Full ************************* Full
+        // else
+        // check 4 5, 
+            // teo pair 4 5 high **************************** 2
+        // else
+        // check 3 4
+            // tweo pair 3 4 high *************************** 2
+        //else
+        //  pair 1 2 high  ***************************** 1
+    //else
+    //chekc 3 5
+        // thre kkind **************************** 3
+    //else
+    // Check 2 3
+        // check 4 5
+            // two pair ************************* 2
+        // else 
+        // paoir 8************************** 1
+    // else
+    // chekc 3 4
+        // pair ****************************** 1
+    // else
+     // check 4 5
+        // pari ******************************** 1
+    // else 
+    // High card ***************************************

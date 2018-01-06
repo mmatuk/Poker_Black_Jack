@@ -1,0 +1,6 @@
+TODO list:
+
+- Finish playGame Black Jack
+- Add adminPlayGame() for poker
+- Add account login 
+- display red cards
